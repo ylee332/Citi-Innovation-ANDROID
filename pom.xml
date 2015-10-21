@@ -8,12 +8,13 @@
 	<packaging>apk</packaging>
 	<name>androidmavenapp</name>
 
+    <!--Github SCM URL-->
     <scm>
         <connection>scm:git:https://github.com/ylee332/Citi-Innovation-ANDROID.git</connection>
         <url>https://github.com/ylee332/Citi-Innovation-ANDROID</url>
         <developerConnection>scm:git:https://github.com/ylee332/Citi-Innovation-ANDROID.git</developerConnection>
     </scm>
-
+    
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<platform.version> 4.1.1.4</platform.version>
@@ -57,7 +58,9 @@
 				<artifactId>android-maven-plugin</artifactId>
 				<configuration>
 					<sdk>
-                        <path>/Users/yoonlee/Library/Android/sdk</path>
+                        <!-- Configured for CentOS path -->
+                        <!-- Local path was /Users/yoonlee/Library/Android/SDK -->
+                        <path>/usr/lib/Android/sdk</path>
 						<platform>21</platform>
 					</sdk>
                 </configuration>
