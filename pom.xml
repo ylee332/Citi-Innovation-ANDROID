@@ -60,7 +60,7 @@
 					<sdk>
                         <!-- Configured for CentOS path -->
                         <!-- Local path was /Users/yoonlee/Library/Android/SDK -->
-                        <path>/Users/yoonlee/Library/Android</path>
+                        <path>/usr/lib/android/sdk</path>
 						<platform>21</platform>
 					</sdk>
                 </configuration>
